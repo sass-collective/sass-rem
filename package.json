@@ -1,6 +1,8 @@
 {
-    "name": "sass-rem",
+    "name": "@sass-collective/sass-rem",
     "version": "1.0.0",
+    "description": "Generate rem CSS value.",
+    "main": "index.scss",
     "scripts": {},
     "engines": {
         "node": ">=10.0.0",
@@ -9,5 +11,20 @@
     "devDependencies": {},
     "dependencies": {
         "sass": "^1.25.0"
+    },
+    "keywords": [
+        "css",
+        "sass",
+        "front-end"
+    ],
+    "author": "The Sass Collective Authors",
+    "license": "MIT",
+    "homepage": "https://github.com/sass-collective/sass-rem",
+    "bugs": {
+        "url": "https://github.com/sass-collective/sass-rem/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sass-collective/sass-rem.git"
     }
 }
