@@ -1,5 +1,7 @@
 # Sass Rem
-  
+
+Generate rem CSS value.
+
 ## Install
 
     npm install @sass-collective/sass-rem --save
@@ -16,7 +18,7 @@
         font-size: sass-rem(16);
     }
 
-#### CSS 
+#### CSS
 
     body {
         font-size: 1rem;
@@ -28,8 +30,16 @@
 
     @use "@sass-collective/sass-rem"
 
+    // Function
+
     body {
         font-size: sass-rem.rem(16);
+    }
+
+    // Mixin
+
+    body {
+        @include sass-rem.rem(16);
     }
 
 #### CSS
