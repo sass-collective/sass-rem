@@ -8,22 +8,6 @@ Generate rem CSS value.
 
 ## Usage
 
-### Global @import
-
-#### Sass
-
-    @import "@sass-collective/sass-rem"
-
-    body {
-        font-size: sass-rem(16);
-    }
-
-#### CSS
-
-    body {
-        font-size: 1rem;
-    }
-
 ### Module System
 
 #### Sass
@@ -40,6 +24,30 @@ Generate rem CSS value.
 
     body {
         @include sass-rem.rem(16);
+    }
+
+#### CSS
+
+    body {
+        font-size: 1rem;
+    }
+
+### Legacy @import
+
+#### Sass
+
+    @import "@sass-collective/sass-rem"
+
+    // Function
+    
+    body {
+        font-size: sass-rem(16);
+    }
+
+    // Mixin
+
+    body {
+        @include sass-rem(16);
     }
 
 #### CSS
