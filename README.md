@@ -1,4 +1,10 @@
-# Sass Rem
+![Sass Rem](.repo/banner.png)
+
+![Version](https://flat.badgen.net/npm/v/@sass-collective/sass-rem)
+![Download](https://flat.badgen.net/npm/dt/@sass-collective/sass-rem)
+![License](https://flat.badgen.net/npm/license/@sass-collective/sass-rem)
+
+## Introduction
 
 Generate rem CSS value.
 
