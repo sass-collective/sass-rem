@@ -12,6 +12,9 @@
     "dependencies": {
         "sass": "^1.26.1"
     },
+    "files": [
+        "*.scss"
+    ],
     "keywords": [
         "css",
         "sass",
