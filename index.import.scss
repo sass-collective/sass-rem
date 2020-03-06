@@ -2,6 +2,6 @@
 //                                            IMPORTS                                            //
 // ============================================================================================= //
 
+@forward "./variables" as sass-*;
 @forward "./functions" as sass-*;
 @forward "./mixins" as sass-*;
-@forward "./variables" as sass-*;
