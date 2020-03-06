@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Generate rem CSS value.
+Generate rem value.
 
 ## Install
 
