@@ -5,6 +5,6 @@
 @use "./variables";
 @use "./functions";
 
-@mixin rem($property, $value, $context: variables.$baseline) {
-    #{$property}: functions.rem($value, $context);
+@mixin rem($property, $values, $context: variables.$baseline) {
+    #{$property}: functions.rem($values, $context);
 }

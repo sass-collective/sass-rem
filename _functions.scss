@@ -2,8 +2,25 @@
 //                                           FUNCTIONS                                           //
 // ============================================================================================= //
 
+@use "sass:list";
+@use "sass:math";
+@use "sass:meta";
 @use "./variables";
 
-@function rem($value, $context: variables.$baseline) {
-    @return ($value / $context) * 1rem;
+@function rem($values, $context: variables.$baseline) {
+    $result: ();
+
+    @each $value in $values {
+        $result: list.append($result, (_strip-unit($value) / $context) * 1rem);
+    }
+
+    @return $result;
+}
+
+@function _strip-unit($value) {
+    @if meta.type-of($value) == "number" and not math.is-unitless($value) {
+        @return $value / ($value * 0 + 1);
+    }
+
+    @return $value;
 }
