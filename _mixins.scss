@@ -2,9 +2,8 @@
 //                                            MIXINS                                             //
 // ============================================================================================= //
 
-@use "./variables";
 @use "./functions";
 
-@mixin rem($property, $values, $context: variables.$baseline) {
-    #{$property}: functions.rem($values, $context);
+@mixin rem($property, $values) {
+    #{$property}: functions.rem($values);
 }

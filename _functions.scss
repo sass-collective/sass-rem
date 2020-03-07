@@ -7,11 +7,11 @@
 @use "sass:meta";
 @use "./variables";
 
-@function rem($values, $context: variables.$baseline) {
+@function rem($values) {
     $result: ();
 
     @each $value in $values {
-        $result: list.append($result, (_strip-unit($value) / _strip-unit($context)) * 1rem);
+        $result: list.append($result, (_strip-unit($value) / _strip-unit(variables.$baseline)) * 1rem);
     }
 
     @return $result;

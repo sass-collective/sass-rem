@@ -17,13 +17,13 @@ Generate rem value.
 ### Function
 
 ```scss
-rem($values, $context: 16);
+rem($values);
 ```
 
 ### Mixin
 
 ```scss
-rem($property, $values, $context: 16);
+rem($property, $values);
 ```
 
 ### Update default context in global
