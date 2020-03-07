@@ -21,6 +21,12 @@ Generate rem value.
 ### Mixin
 
     rem($property, $values, $context: 16);
+    
+### Update default context in global
+
+    @use "@sass-collective/sass-rem" with (
+        $baseline: 16
+    );
 
 ### Module System
 

@@ -11,7 +11,7 @@
     $result: ();
 
     @each $value in $values {
-        $result: list.append($result, (_strip-unit($value) / $context) * 1rem);
+        $result: list.append($result, (_strip-unit($value) / _strip-unit($context)) * 1rem);
     }
 
     @return $result;
