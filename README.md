@@ -16,74 +16,88 @@ Generate rem value.
 
 ### Function
 
-    rem($values, $context: 16);
+```scss
+rem($values, $context: 16);
+```
 
 ### Mixin
 
-    rem($property, $values, $context: 16);
-    
+```scss
+rem($property, $values, $context: 16);
+```
+
 ### Update default context in global
 
-    @use "@sass-collective/sass-rem" with (
-        $baseline: 16
-    );
+```scss
+@use "@sass-collective/sass-rem" with (
+    $baseline: 16
+);
+```
 
 ### Module System
 
 #### Sass
 
-    @use "@sass-collective/sass-rem"
+```scss
+@use "@sass-collective/sass-rem";
 
-    // Function
+// Function
 
-    body {
-        // Single value
-        font-size: sass-rem.rem(16);
-        
-        // Mulptiple values
-        padding: sass-rem.rem(20 30);
-    }
+body {
+    // Single value
+    font-size: sass-rem.rem(16);
+    
+    // Mulptiple values
+    padding: sass-rem.rem(20 30);
+}
 
-    // Mixin
+// Mixin
 
-    body {
-        // Single value
-        @include sass-rem.rem(font-size, 16);
-        
-        // Multiple values
-        @include sass-rem.rem(padding, 20 30);
-    }
+body {
+    // Single value
+    @include sass-rem.rem(font-size, 16);
+    
+    // Multiple values
+    @include sass-rem.rem(padding, 20 30);
+}
+```
 
 #### CSS
 
-    body {
-        font-size: 1rem;
-        padding: 1.25rem 1.875rem;
-    }
+```css
+body {
+    font-size: 1rem;
+    padding: 1.25rem 1.875rem;
+}
+```
 
 ### Legacy @import
 
 #### Sass
 
-    @import "@sass-collective/sass-rem"
+```scss
+@import "@sass-collective/sass-rem";
 
-    // Function
-    
-    body {
-        font-size: sass-rem(16);
-        padding: sass-rem(20 30);
-    }
+// Function
 
-    // Mixin
+body {
+    font-size: sass-rem(16);
+    padding: sass-rem(20 30);
+}
 
-    body {
-        @include sass-rem(font-size, 16);
-        @include sass-rem(padding, 20 30);
-    }
+// Mixin
+
+body {
+    @include sass-rem(font-size, 16);
+    @include sass-rem(padding, 20 30);
+}
+```
 
 #### CSS
 
-    body {
-        font-size: 1rem;
-        padding: 1.25rem 1.875rem;
-    }
+```css
+body {
+    font-size: 1rem;
+    padding: 1.25rem 1.875rem;
+}
+```
