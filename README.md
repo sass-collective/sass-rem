@@ -47,7 +47,7 @@ body {
     // Single value
     font-size: sass-rem.rem(16);
     
-    // Mulptiple values
+    // Multiple values
     padding: sass-rem.rem(20 30);
 }
 
