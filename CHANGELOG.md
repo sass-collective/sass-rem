@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+## [v1.1.0 (2020-03-07)](https://github.com/sass-collective/sass-rem/compare/v1.0.2...v1.1.0)
+
+### Added
+
+* Added ``$values`` instead of ``$value`` on mixin & function
+* Added ``$property`` option on mixin
+
+### Removed
+
+* Removed unneeded ``$context`` parameter
+
 ## [v1.0.2 (2020-03-05)](https://github.com/sass-collective/sass-rem/compare/v1.0.1...v1.0.2)
 
 ### Added
