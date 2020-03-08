@@ -36,8 +36,6 @@ rem($property, $values);
 
 ### Module System
 
-#### Sass
-
 ```scss
 @use "@sass-collective/sass-rem";
 
@@ -62,18 +60,7 @@ body {
 }
 ```
 
-#### CSS
-
-```css
-body {
-    font-size: 1rem;
-    padding: 1.25rem 1.875rem;
-}
-```
-
 ### Legacy @import
-
-#### Sass
 
 ```scss
 @import "@sass-collective/sass-rem";
@@ -93,7 +80,7 @@ body {
 }
 ```
 
-#### CSS
+### CSS
 
 ```css
 body {
