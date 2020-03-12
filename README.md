@@ -26,6 +26,10 @@ rem($values);
 rem($property, $values);
 ```
 
+| Names            | Values    |
+| ---------------- | --------- |
+| ``$baseline``    | 16        |
+
 ### Update default context in global
 
 ```scss
