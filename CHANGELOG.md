@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [v1.1.1 (2020-03-13)](https://github.com/sass-collective/sass-rem/compare/v1.0.2...v1.1.1)
+
+### Fixed
+
+* Changed ``@import`` variables prefix
+
 ## [v1.1.0 (2020-03-07)](https://github.com/sass-collective/sass-rem/compare/v1.0.2...v1.1.0)
 
 ### Added
