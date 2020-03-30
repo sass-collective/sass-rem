@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [v1.2.0 (2020-03-30)](https://github.com/sass-collective/sass-rem/compare/v1.1.0...v1.2.0)
+
+### Changed
+
+* Changed legacy ``@import`` code
+
 ## [v1.1.1 (2020-03-13)](https://github.com/sass-collective/sass-rem/compare/v1.0.2...v1.1.1)
 
 ### Fixed
