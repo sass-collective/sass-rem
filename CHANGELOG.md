@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [v1.2.1 (2020-04-04)](https://github.com/sass-collective/sass-rem/compare/v1.2.0...v1.2.1)
+
+### Fixed
+
+* Fixed trailing unit with zero
+
 ## [v1.2.0 (2020-03-30)](https://github.com/sass-collective/sass-rem/compare/v1.1.0...v1.2.0)
 
 ### Changed
