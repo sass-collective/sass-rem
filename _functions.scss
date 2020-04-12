@@ -5,26 +5,19 @@
 @use "sass:list";
 @use "sass:math";
 @use "sass:meta";
+@use "~@sass-collective/strip-unit";
 @use "./variables";
 
 @function rem($values) {
     $result: ();
 
     @each $value in $values {
-        @if _strip-unit($value) == 0 {
-            $result: list.append($result, _strip-unit($value));
+        @if strip-unit.strip-unit($value) == 0 {
+            $result: list.append($result, strip-unit.strip-unit($value));
         } @else {
-            $result: list.append($result, (_strip-unit($value) / _strip-unit(variables.$baseline)) * 1rem);
+            $result: list.append($result, (strip-unit.strip-unit($value) / strip-unit.strip-unit(variables.$baseline)) * 1rem);
         }
     }
 
     @return $result;
-}
-
-@function _strip-unit($value) {
-    @if meta.type-of($value) == "number" and not math.is-unitless($value) {
-        @return $value / ($value * 0 + 1);
-    }
-
-    @return $value;
 }
