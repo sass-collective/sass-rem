@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [v1.3.0 (2020-04-12)](https://github.com/sass-collective/sass-rem/compare/v1.2.1...v1.3.0)
+
+### Added
+
+* Added ``@sass-collective/strip-unit`` instead of native function
+
 ## [v1.2.1 (2020-04-04)](https://github.com/sass-collective/sass-rem/compare/v1.2.0...v1.2.1)
 
 ### Fixed
