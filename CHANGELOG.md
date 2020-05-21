@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [v1.4.0 (2020-05-21)](https://github.com/sass-collective/sass-rem/compare/v1.3.1...v1.4.0)
+
+### Added
+
+* Added good object type, ``number`` or ``list``, on return.
+
 ## [v1.3.1 (2020-05-03)](https://github.com/sass-collective/sass-rem/compare/v1.3.0...v1.3.1)
 
 ### Changed
