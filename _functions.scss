@@ -3,6 +3,7 @@
 // ============================================================================================= //
 
 @use "sass:list";
+@use "sass:meta";
 @use "~@sass-collective/strip-unit";
 @use "./variables";
 
@@ -11,9 +12,13 @@
 
     @each $value in $values {
         @if strip-unit.strip-unit($value) == 0 {
-            $result: list.append($result, strip-unit.strip-unit($value));
+            $result: 0;
         } @else {
-            $result: list.append($result, (strip-unit.strip-unit($value) / strip-unit.strip-unit(variables.$baseline)) * 1rem);
+            @if meta.type-of($values) == "number" {
+                $result: strip-unit.strip-unit($value) / strip-unit.strip-unit(variables.$baseline) * 1rem;
+            } @else {
+                $result: list.append($result, (strip-unit.strip-unit($value) / strip-unit.strip-unit(variables.$baseline)) * 1rem);
+            }
         }
     }
 
