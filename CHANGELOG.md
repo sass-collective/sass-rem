@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+## [v1.4.1 (2020-06-05)](https://github.com/sass-collective/sass-rem/compare/v1.4.0...v1.4.1)
+
+### Changed
+
+* Update to ``sass`` 1.26.8
+
+### Fixed
+
+* Fixed result in certain combinations of numbers in a list.
+
 ## [v1.4.0 (2020-05-21)](https://github.com/sass-collective/sass-rem/compare/v1.3.1...v1.4.0)
 
 ### Added
