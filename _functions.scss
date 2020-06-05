@@ -11,14 +11,18 @@
     $result: ();
 
     @each $value in $values {
-        @if strip-unit.strip-unit($value) == 0 {
-            $result: 0;
+        $value: strip-unit.strip-unit($value);
+
+        @if $value == 0 {
+            $value: 0;
         } @else {
-            @if meta.type-of($values) == "number" {
-                $result: strip-unit.strip-unit($value) / strip-unit.strip-unit(variables.$baseline) * 1rem;
-            } @else {
-                $result: list.append($result, (strip-unit.strip-unit($value) / strip-unit.strip-unit(variables.$baseline)) * 1rem);
-            }
+            $value: $value / strip-unit.strip-unit(variables.$baseline) * 1rem;
+        }
+
+        @if meta.type-of($values) == "number" {
+            $result: $value;
+        } @else {
+            $result: list.append($result, $value);
         }
     }
 
