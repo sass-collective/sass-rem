@@ -2,5 +2,8 @@
     "extends": "@distillery/stylelint-config-distillery",
     "plugins": [
         "stylelint-scss"
-    ]
+    ],
+    "rules": {
+        "scss/at-import-no-partial-leading-underscore": true
+    }
 }
