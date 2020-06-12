@@ -1,3 +1,6 @@
 {
-    "extends": "@distillery/stylelint-config-distillery"
+    "extends": "@distillery/stylelint-config-distillery",
+    "plugins": [
+        "stylelint-scss"
+    ]
 }

@@ -11,7 +11,9 @@
         "npm": ">=6.0.0"
     },
     "devDependencies": {
-        "@distillery/stylelint-config-distillery": "^1.0.0"
+        "@distillery/stylelint-config-distillery": "^1.0.0",
+        "stylelint": "^13.6.0",
+        "stylelint-scss": "^3.17.2"
     },
     "dependencies": {
         "@sass-collective/strip-unit": "^1.0.1",
