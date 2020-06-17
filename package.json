@@ -1,7 +1,7 @@
 {
     "name": "@sass-collective/sass-rem",
     "version": "1.4.1",
-    "description": "Generate rem CSS value.",
+    "description": "Sass function & mixin to generate rem value.",
     "main": "index.scss",
     "scripts": {
         "lint": "stylelint --fix \"**/*.scss\""
