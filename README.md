@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Generate rem value.
+Sass function & mixin to generate rem value.
 
 ## Install
 
