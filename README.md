@@ -1,5 +1,6 @@
 ![Sass Rem](.repo/banner.png)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f969e08f85544251a4c63b418780e184)](https://app.codacy.com/gh/sass-collective/sass-rem?utm_source=github.com&utm_medium=referral&utm_content=sass-collective/sass-rem&utm_campaign=Badge_Grade_Dashboard)
 [![Version](https://flat.badgen.net/npm/v/@sass-collective/sass-rem)](https://www.npmjs.com/package/@sass-collective/sass-rem)
 [![Download](https://flat.badgen.net/npm/dt/@sass-collective/sass-rem)](https://www.npmjs.com/package/@sass-collective/sass-rem)
 [![License](https://flat.badgen.net/npm/license/@sass-collective/sass-rem)](https://www.npmjs.com/package/@sass-collective/sass-rem)
