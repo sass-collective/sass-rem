@@ -12,7 +12,7 @@
     },
     "devDependencies": {
         "@distillery/stylelint-config-distillery": "^1.0.0",
-        "stylelint": "^13.6.0",
+        "stylelint": "^13.6.1",
         "stylelint-scss": "^3.18.0"
     },
     "dependencies": {
