@@ -2,6 +2,7 @@
 
 [![Version](https://flat.badgen.net/npm/v/@sass-collective/sass-rem)](https://www.npmjs.com/package/@sass-collective/sass-rem)
 [![Download](https://flat.badgen.net/npm/dt/@sass-collective/sass-rem)](https://www.npmjs.com/package/@sass-collective/sass-rem)
+[![Quality](https://flat.badgen.net/codacy/grade/0f9f3808eaa94177a98bd46b035410db)](https://app.codacy.com/gh/sass-collective/sass-rem)
 [![License](https://flat.badgen.net/npm/license/@sass-collective/sass-rem)](https://www.npmjs.com/package/@sass-collective/sass-rem)
 
 ## Introduction
