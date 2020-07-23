@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## [v1.5.0 (2020-07-24)](https://github.com/sass-collective/sass-rem/compare/v1.4.2...v1.5.0)
+
+### Changed
+
+* Changed ``@sass-collective/strip-unit`` to ``1.2.0``
+* Changed ``sass``to ``1.26.10``
+
 ## [v1.4.2 (2020-06-25)](https://github.com/sass-collective/sass-rem/compare/v1.4.1...v1.4.2)
 
 ### Changed
