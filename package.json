@@ -37,6 +37,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sass-collective/sass-rem.git"
+        "url": "https://github.com/sass-collective/sass-rem.git"
     }
 }
