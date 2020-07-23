@@ -48,6 +48,7 @@ rem($property, $values);
 
 // Function
 
+html,
 body {
     // Single value
     font-size: sass-rem.rem(16);
@@ -58,6 +59,7 @@ body {
 
 // Mixin
 
+html,
 body {
     // Single value
     @include sass-rem.rem(font-size, 16);
@@ -74,6 +76,7 @@ body {
 
 // Function
 
+html,
 body {
     font-size: sass-rem(16);
     padding: sass-rem(20 30);
@@ -81,6 +84,7 @@ body {
 
 // Mixin
 
+html,
 body {
     @include sass-rem(font-size, 16);
     @include sass-rem(padding, 20 30);
@@ -90,6 +94,7 @@ body {
 ### CSS
 
 ```css
+html,
 body {
     font-size: 1rem;
     padding: 1.25rem 1.875rem;
