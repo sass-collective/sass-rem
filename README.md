@@ -54,7 +54,7 @@ body {
     font-size: sass-rem.rem(16);
     
     // Multiple values
-    padding: sass-rem.rem(20 30);
+    margin: sass-rem.rem(20 30);
 }
 
 // Mixin
@@ -65,7 +65,7 @@ body {
     @include sass-rem.rem(font-size, 16);
     
     // Multiple values
-    @include sass-rem.rem(padding, 20 30);
+    @include sass-rem.rem(margin, 20 30);
 }
 ```
 
@@ -79,7 +79,7 @@ body {
 html,
 body {
     font-size: sass-rem(16);
-    padding: sass-rem(20 30);
+    margin: sass-rem(20 30);
 }
 
 // Mixin
@@ -87,7 +87,7 @@ body {
 html,
 body {
     @include sass-rem(font-size, 16);
-    @include sass-rem(padding, 20 30);
+    @include sass-rem(margin, 20 30);
 }
 ```
 
@@ -97,6 +97,6 @@ body {
 html,
 body {
     font-size: 1rem;
-    padding: 1.25rem 1.875rem;
+    margin: 1.25rem 1.875rem;
 }
 ```
