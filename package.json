@@ -17,7 +17,7 @@
     },
     "dependencies": {
         "@sass-collective/strip-unit": "^1.2.0",
-        "sass": "^1.27.0"
+        "sass": "^1.28.0"
     },
     "files": [
         "*.scss"
