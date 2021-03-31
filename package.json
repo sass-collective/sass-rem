@@ -12,12 +12,12 @@
     },
     "devDependencies": {
         "@distillery/stylelint-config-distillery": "^1.0.0",
-        "stylelint": "^13.9.0",
-        "stylelint-scss": "^3.18.0"
+        "stylelint": "^13.12.0",
+        "stylelint-scss": "^3.19.0"
     },
     "dependencies": {
-        "@sass-collective/strip-unit": "^2.0.0",
-        "sass": "^1.32.5"
+        "@sass-collective/strip-unit": "^2.0.2",
+        "sass": "^1.32.8"
     },
     "files": [
         "*.scss"
