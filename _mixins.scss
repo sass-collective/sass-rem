@@ -2,8 +2,9 @@
 //                                            MIXINS                                             //
 // ============================================================================================= //
 
+@use "~@sass-collective/property";
 @use "./functions";
 
 @mixin rem($property, $values) {
-    #{$property}: functions.rem($values);
+    @include property.create($property, functions.rem($values));
 }

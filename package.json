@@ -16,6 +16,7 @@
         "stylelint-scss": "^3.19.0"
     },
     "dependencies": {
+        "@sass-collective/property": "^3.2.1",
         "@sass-collective/strip-unit": "^2.0.2",
         "sass": "^1.32.8"
     },
