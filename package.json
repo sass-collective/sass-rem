@@ -1,6 +1,6 @@
 {
     "name": "@sass-collective/sass-rem",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "Sass function & mixin to generate rem value.",
     "main": "index.scss",
     "scripts": {

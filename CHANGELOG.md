@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+## [v1.6.0 (2021-03-31)](https://github.com/sass-collective/sass-rem/compare/v1.5.0...v1.6.0)
+
+### Added
+
+* Added `$important` option on `rem` mixin
+* Added ``@sass-collective/property`` to ``3.2.1``
+
+### Changed
+
+* Changed ``sass``to ``1.32.8``
+
 ## [v1.5.0 (2020-07-24)](https://github.com/sass-collective/sass-rem/compare/v1.4.2...v1.5.0)
 
 ### Changed
