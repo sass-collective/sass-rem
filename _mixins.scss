@@ -5,6 +5,6 @@
 @use "~@sass-collective/property";
 @use "./functions";
 
-@mixin rem($property, $values) {
-    @include property.create($property, functions.rem($values));
+@mixin rem($property, $value, $important: false) {
+    @include property.create($property, functions.rem($value), $important);
 }
