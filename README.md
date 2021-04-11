@@ -5,7 +5,7 @@
 [![Quality](https://flat.badgen.net/codacy/grade/0f9f3808eaa94177a98bd46b035410db)](https://app.codacy.com/gh/sass-collective/sass-rem)
 [![License](https://flat.badgen.net/npm/license/@sass-collective/sass-rem)](https://www.npmjs.com/package/@sass-collective/sass-rem)
 
-> **NOTE:** this repository has been transferred to Sass Collective monorepo [here](https://github.com/sass-collective/sass-collective/tree/master/packages/rem), use this package, before the complete deprecation of this one.
+> **DEPRECATED:** this package has been moved to new reference in Sass Collective [monorepo](https://github.com/sass-collective/sass-collective/tree/master/packages/rem) `@sass-collective/rem`, use this package because the current repository is no more maintained.
 
 ## Introduction
 

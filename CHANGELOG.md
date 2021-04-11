@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [v1.7.0 (2021-04-11)](https://github.com/sass-collective/sass-rem/compare/v1.6.0...v1.7.0)
+
+### Changed
+
+* global: move the package to new reference `@sass-collective/rem`
+
 ## [v1.6.0 (2021-03-31)](https://github.com/sass-collective/sass-rem/compare/v1.5.0...v1.6.0)
 
 ### Added
