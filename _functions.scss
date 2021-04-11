@@ -2,29 +2,11 @@
 //                                           FUNCTIONS                                           //
 // ============================================================================================= //
 
-@use "sass:list";
-@use "sass:meta";
-@use "~@sass-collective/strip-unit";
 @use "./variables";
+@use "~@sass-collective/rem" with (
+    $baseline: variables.$baseline
+);
 
 @function rem($values) {
-    $result: ();
-
-    @each $value in $values {
-        $value: strip-unit.strip-unit($value);
-
-        @if $value == 0 {
-            $value: 0;
-        } @else {
-            $value: $value / strip-unit.strip-unit(variables.$baseline) * 1rem;
-        }
-
-        @if meta.type-of($values) == "number" {
-            $result: $value;
-        } @else {
-            $result: list.append($result, $value);
-        }
-    }
-
-    @return $result;
+    @return rem.convert($values);
 }
